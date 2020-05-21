@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="basic-framework-tianya:war exploded">
+    <output-path>$PROJECT_DIR$/target/basic-framework-tianya</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>basic-framework-tianya</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="basic-framework-tianya" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.68" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/basic-framework-tianya/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="basic-framework-tianya/web/Web" />
+    </root>
+  </artifact>
+</component>

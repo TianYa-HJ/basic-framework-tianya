@@ -1,0 +1,14 @@
+{
+  "notificationType": "GUIDE_PASS",
+  "reportNo": "TestReportNo0000001",
+  "assessmentNo": "PAICNB-20200413001",
+  "insurer": "paic",
+  "plateNo": "湘HJ8971",
+  "vin": "LSJMMNN891adsJ8LI",
+  "caseStatus": "3",
+  "assessmentStatus": "7",
+  "operatePersonCode": "PaicUserCode",
+  "operatePersonName": "PaicUserName",
+  "operateReason": "",
+  "operatingTime": "20190927142801"
+}
